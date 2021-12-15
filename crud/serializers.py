@@ -4,5 +4,5 @@ from .models import Pessoa
 class PessoaSerializers(serializers.ModelSerializer):
     class Meta:
         model = Pessoa
-        fields = '__all__'
+        field = '__all__'
 
